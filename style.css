@@ -44,7 +44,12 @@ li{
     align-items: center;
     justify-content: center;
 }
-  
+
+.menu__items :hover{
+    transform: scale(1.1);
+    background: rgb(3, 142, 84);
+}
+
 .menu__item{
     position: absolute;
   
@@ -65,6 +70,13 @@ li{
 .menu__item a{
     color: var(--color);
     font-size: 2rem;
+}
+
+.menu__item a:hover {
+    color: rgb(120, 234, 126);
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    transform: scale(1.1);
 }
   
 .menu__wrapper{
